@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"); /* This is the Roboto text import from googlefonts */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+/* This is the setup for the body */
+
+.nav-bar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0 10%;
+  gap: 20px;
+}
+/* This is the section for the nav-bar and the setup for anything inside this container. */
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+  /* padding: 10px 30px; */
+  margin: 0;
+}
+/* This is the setting for the logo */
+
+.nav-links {
+  display: flex;
+  margin: 0;
+}
+/* This is the setup for the links in the nav-bar */
+
+.logo,
+.nav-tags {
+  text-align: center;
+}
+/* This is the similar things about the links and the logo in the nav-bar */
+
+.nav-tags {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0 10px;
+  font-family: "Roboto", sans-serif;
+}
+/* This is the settings for the links */
+
+.nav-bar,
+.top-intro,
+.footer {
+  background-color: #1f2937;
+}
+/* This is the similarity for the nav-bar the top-intro and the footer */
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10%;
+  margin: 0;
+  gap: 50px;
+}
+/* This it the title, paragraph amd button at the top of the page box */
+
+.title-paragraph-button {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+/* This is the setup for the for the title, paragraph and button just for the padding */
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+  padding: 0;
+}
+/* This is the setup for the title */
+
+.about {
+  max-width: 450px;
+  text-align: left;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* This is the setup for paragraph of the top of the page */
+
+.first-button {
+  /* margin: 10px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  width: 100px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #3882f6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* This is the setup for the button */
+
+.first-button:active {
+  color: #000;
+  background-color: #70da89;
+  /* box-shadow: 1px 1px 0.3rem #70da89; */
+  transition: all ease-in-out 0.1s;
+}
+/* This is the action that will happen when clicking a button */
+
+.photo-box {
+  background-color: rgba(80, 138, 149, 0.686);
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 225px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* This is the setup for the box of the image until i have and image here */
+
+.image {
+  color: #f9faf8;
+  text-align: center;
+}
+/* This is the setup for the image text it's only here temporary for this project */
+
+.middle-section {
+  background-color: #fff;
+}
+/* This is the box for the second part of the page */
+
+.title-2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+}
+/* This is the second title settings */
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 10%;
+}
+
+/* This is the section of the page that holds the boxes for the photo in the middle of the page
+ */
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  max-width: 150px;
+}
+/* This is the setting for the box holding the picture and the paragraph under the picture */
+
+.photos {
+  width: 145px;
+  height: 145px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+/* This is the setup for the box in the middle of the page holding the image in the white section of the page */
+
+.image-text {
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
+}
+/* This is a class and setting for the paragraph for the paragraphs under the images  */
+
+.quote-box {
+  background-color: #e5e7eb;
+  margin-top: 3%;
+  padding: 5%;
+  gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* This is the box for the quote and the author of this quote */
+.quote-setup {
+  padding: 0 5%;
+}
+/* This is the box holding the quote  */
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #1f2937;
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  margin: 0;
+  padding: 0;
+}
+/* This is the quote settings  */
+
+.author-father {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding-left: 45%;
+  margin-top: -38px;
+  margin-left: 5px;
+}
+/* This is the author of the quote box setting */
+
+.author {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+/* This is the setting for the font of the author */
+
+.commercial-box {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 5%;
+}
+/* This is the box for the commercial at before the footer of the page */
+
+.commercial-container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 25px 50px;
+  margin: 0;
+  border-radius: 8px;
+}
+/* This is the box for the last container at the bottom of the page but not the footer */
+
+.title-commercial {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+/* This is the box that has the last component for this page before the footer and this is the setup fot it */
+
+.last-box-title {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+/* This is the setup for the last title of the page */
+
+.title-commercial > p {
+  text-align: left;
+  padding: 5px 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* This is the setup for the last paragraph of the page */
+
+.last-button {
+  /* margin: 10px 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  width: 100px;
+  height: 35px;
+  border-radius: 7px;
+  background-color: #3882f6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+/* This is the setup for the last button of this page  */
+
+.last-button:active {
+  color: #000;
+  background-color: #70da89;
+  /* box-shadow: 1px 1px 0.3rem #70da89; */
+  transition: all ease-in-out 0.1s;
+}
+/* This is the setup for the actions of the button when is click */
+
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+/* This is the setup for the footer of this page */
+
+.footer > p {
+  text-align: center;
+  color: #f9faf8;
+  font-size: 14px;
+}
