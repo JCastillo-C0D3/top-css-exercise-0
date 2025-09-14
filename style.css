@@ -274,7 +274,6 @@ body {
   text-align: left;
   padding: 0;
   margin: 0;
-  color: #fff;
 }
 /* This is the box that has the last component for this page before the footer and this is the setup fot it */
 
@@ -285,6 +284,7 @@ body {
   font-weight: 700;
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 /* This is the setup for the last title of the page */
 
@@ -293,6 +293,7 @@ body {
   padding: 5px 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 /* This is the setup for the last paragraph of the page */
 
